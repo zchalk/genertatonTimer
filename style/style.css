@@ -1,0 +1,71 @@
+#backgroundVideo {
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    z-index: -1;
+  }
+section {
+      display: flex;
+      flex-direction: column;
+  }
+  img {
+    margin-top: 15vh;
+    width: 70%;
+    align-self: center;
+  }
+
+p {
+    font-size: 300px;
+    color: rgb(61, 61, 61);
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 0;
+    text-shadow:
+    0 0 7px #ffff,
+    0 0 10px #ffff,
+    0 0 21px #ffff,
+    0 0 42px rgb(155, 187, 201),
+    0 0 82px rgb(155, 187, 201),
+    0 0 92px rgb(155, 187, 201),
+    0 0 102px rgb(155, 187, 201),
+    0 0 151px rgb(155, 187, 201);
+  }
+#buttonContainer {
+    align-self: center;
+}
+button {
+    font-size: 60px;
+    color: rgb(61, 61, 61);
+    background: none;
+    border: none;
+    cursor: pointer;
+    text-shadow:
+    0 0 7px #ffff,
+    0 0 10px #ffff,
+    0 0 21px #ffff,
+    0 0 42px rgb(155, 187, 201),
+    0 0 82px rgb(155, 187, 201),
+    0 0 92px rgb(155, 187, 201),
+    0 0 102px rgb(155, 187, 201),
+    0 0 151px rgb(155, 187, 201);
+}
+@media screen and (max-width:420px) {
+  p {
+    font-size: 100px;
+    text-align: center;
+    margin-bottom: 0;
+  }
+  button {
+    font-size: 30px;
+}
+ 
+  #backgroundVideo {
+    width: 420px;
+    object-fit: cover;
+  }
+}
